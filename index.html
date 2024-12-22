@@ -8,9 +8,45 @@
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body >
+    <!-- header section -->
+     <navbar class="container mx-auto ">
+        <div class="text-center my-12 md-mx-12 lg-mx-24 ">
+            
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      
+                     
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    
+                    </ul>
+                  </div>
+                  
+                  <div>
+                    <img class=" w-[100px] h-[80px]" src="logo.webp">
+                  </div>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    
+                   
+                    
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="text-2xl text-[#ffffff]">SINE IN</a>
+                </div>
+              </div>
+        </div>
+     </navbar>
+    <!-- banner section -->
     <banner class="container mx-auto">
-    <div class="text-center my-16 mx-24">
+    <div class="text-center my-12 md-mx-12 lg-mx-24">
         <div
         class=" hero "
         style="background-image: url(image1.webp); height: 400px; ">
@@ -21,9 +57,9 @@
           </h1>
             
           <div class="flex ">
-              <button class=" bg-red-700 h-[60px]  w-[200px] rounded-md text-[#ffffff] ">DELIVERY</button>
-            <button class=" bg-red-700 h-[60px] ml-10 w-[200px] rounded-md text-[#ffffff]">TAKEAWAY</button>
-            <button class=" bg-red-700 h-[60px] ml-10 w-[200px] rounded-md text-[#ffffff]">DINE-IN</button>
+              <button class=" bg-red-700 h-[60px]  md-w-[120px] w-[200px] rounded-md text-[#ffffff] ">DELIVERY</button>
+            <button class=" bg-red-700 h-[60px] md-ml-2 ml-10 md-w-[120px] w-[200px] rounded-md text-[#ffffff]">TAKEAWAY</button>
+            <button class=" bg-red-700 h-[60px] md-ml-5 md-w-[120px] ml-10 w-[200px] rounded-md text-[#ffffff]">DINE-IN</button>
             </div>
           </div>
           
@@ -32,6 +68,30 @@
       </div>
     </div>
     </banner>
+    <!-- main section -->
+     <main class="container mx-auto">
+        <div class="text-center my-12 md-mx-12 lg-mx-24">
+            <div class="text-center">
+                <h1 class="text-5xl text-[#ffffff]">Featured Product</h1>
+            </div>
+            <div class="mt-5">
+                <img class=" w-100% " src="image3.jpg">
+            </div>
+            
+            <div class="mt-5">
+                <img class=" w-100% " src="image4.webp">
+            </div>
+            <div class="mt-5">
+                <img class=" w-100% " src="image5.webp">
+            </div>
+            <div class="mt-5">
+                <img class=" w-100% " src="image6.webp">
+            </div>
+            <div class="mt-5">
+                <img class=" w-100% " src="image2.webp">
+            </div>
+        </div>
+     </main>
 </body>
 
 </html>
